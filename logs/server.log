@@ -1,0 +1,35 @@
+
+> vibe-generated-app@1.0.0 dev
+> vite
+
+
+  VITE v5.4.20  ready in 309 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://172.20.0.21:3000/
+6:54:55 AM [vite] Pre-transform error: Transform failed with 1 error:
+/home/workspace/src/components/ChatPanel.jsx:134:74: ERROR: Expected ">" but found "'s orders by region\\\"\"\n                className=\"w-full resize-none rounded-2xl bg-white/5 border border-white/15 px-4 py-3 text-white placeholder-white/40 focus:outline-none focus:ring-2 focus:ring-cyan-400/40\"\n              />\n            </div>\n          </div>\n          <button\n            type=\"submit\"\n            disabled={!canSend}\n            className={`inline-flex items-center gap-2 rounded-xl px-4 py-3 font-medium transition-colors ${\n              canSend\n                ? '"
+The file does not exist at "/home/workspace/node_modules/.vite/deps/chunk-I4MZPW7S.js?v=35394813" which is in the optimize deps directory. The dependency might be incompatible with the dep optimizer. Try adding it to `optimizeDeps.exclude`.
+6:55:08 AM [vite] Internal server error: Transform failed with 1 error:
+/home/workspace/src/components/ChatPanel.jsx:134:74: ERROR: Expected ">" but found "'s orders by region\\\"\"\n                className=\"w-full resize-none rounded-2xl bg-white/5 border border-white/15 px-4 py-3 text-white placeholder-white/40 focus:outline-none focus:ring-2 focus:ring-cyan-400/40\"\n              />\n            </div>\n          </div>\n          <button\n            type=\"submit\"\n            disabled={!canSend}\n            className={`inline-flex items-center gap-2 rounded-xl px-4 py-3 font-medium transition-colors ${\n              canSend\n                ? '"
+  Plugin: vite:esbuild
+  File: /home/workspace/src/components/ChatPanel.jsx:134:74
+  
+  Expected ">" but found "'s orders by region\\\"\"\n                className=\"w-full resize-none rounded-2xl bg-white/5 border border-white/15 px-4 py-3 text-white placeholder-white/40 focus:outline-none focus:ring-2 focus:ring-cyan-400/40\"\n              />\n            </div>\n          </div>\n          <button\n            type=\"submit\"\n            disabled={!canSend}\n            className={`inline-flex items-center gap-2 rounded-xl px-4 py-3 font-medium transition-colors ${\n              canSend\n                ? '"
+  132|                  onChange={(e) => setInput(e.target.value)}
+  133|                  rows={2}
+  134|                  placeholder="Ask about your data, e.g. \"Show me last week's orders by region\""
+     |                                                                            ^
+  135|                  className="w-full resize-none rounded-2xl bg-white/5 border border-white/15 px-4 py-3 text-white placeholder-white/40 focus:outline-none focus:ring-2 focus:ring-cyan-400/40"
+  136|                />
+  
+      at failureErrorWithLog (/home/workspace/node_modules/esbuild/lib/main.js:1472:15)
+      at /home/workspace/node_modules/esbuild/lib/main.js:755:50
+      at responseCallbacks.<computed> (/home/workspace/node_modules/esbuild/lib/main.js:622:9)
+      at handleIncomingPacket (/home/workspace/node_modules/esbuild/lib/main.js:677:12)
+      at Socket.readFromStdout (/home/workspace/node_modules/esbuild/lib/main.js:600:7)
+      at Socket.emit (node:events:508:28)
+      at addChunk (node:internal/streams/readable:559:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+      at Readable.push (node:internal/streams/readable:390:5)
+      at Pipe.onStreamRead (node:internal/stream_base_commons:189:23)
